@@ -1,0 +1,12 @@
+# Terraform 本地状态与 provider 缓存（不入库）
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+
+# 离线校验专用 CLI 配置（指向本机 provider 缓存，不入库）
+offline.rc
+
+# Python 缓存
+__pycache__/
+*.pyc
